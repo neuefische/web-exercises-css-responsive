@@ -1,0 +1,52 @@
+.footer {
+  background: var(--dark);
+  height: var(--footer-height);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--contrast-text);
+}
+
+.footer__paragraph__span,
+.footer__link {
+  color: var(--accent-1);
+}
+
+.footer__link {
+  color: var(--accent-2);
+}
+
+/* If you nade this, without looking here.. verrrrry nice! super hard task :) */
+@media (orientation: landscape) {
+  .footer__heart {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: var(--accent-1);
+    transform: rotate(45deg);
+  }
+
+  .footer__heart::before,
+  .footer__heart::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: var(--accent-1);
+    border-radius: 50%;
+  }
+
+  .footer__heart::after {
+    top: unset;
+    bottom: 0;
+    left: -15px;
+  }
+}

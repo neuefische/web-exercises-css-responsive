@@ -1,0 +1,11 @@
+@import "./article.css";
+
+.main-area {
+  margin: var(--header-height) 0 var(--footer-height) 0;
+  padding: 20px;
+  background: var(--light);
+  color: var(--contrast-text);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
