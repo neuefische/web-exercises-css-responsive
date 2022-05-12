@@ -20,6 +20,11 @@
   color: var(--accent-2);
 }
 
+/* Icon solution */
+/* .footer__icon {
+  display: none;
+} */
+
 /* Solution only using CSS! */
 @media (orientation: landscape) {
   .footer__heart {
@@ -49,4 +54,15 @@
     bottom: 0;
     left: -15px;
   }
+
+  /* Icon solution */
+  /* .footer__icon {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+  } */
+
 }
