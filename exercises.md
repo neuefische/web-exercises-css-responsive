@@ -27,7 +27,9 @@ _Note: These are not necessarily appropriate breakpoints, they are for practice!
 
 You could catch the orientation change with the viewport-width, but there is also a way to directly notice a flipped phone. 
 
-Try to implement an icon (e.g. a heart) at the bottom right corner of the viewport which only appears if the media orientation is set to landscape. 
+Try to implement a heart at the bottom right corner of the viewport which only appears if the media orientation is set to landscape. 
+
+For this exercise you need to add another HTML element.
 
 Some tips:
 - You can build a heart by just using CSS, if you have time and energy give it a try!
