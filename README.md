@@ -2,7 +2,7 @@
 
 This repository provides basic CSS responsive exercises and their solution.
 
-The description of the individual tasks can be found within the `exercise` folder. 
+The description of the individual tasks can be found [here](exercises.md).
 
 It is recommended to know about the following responsive units and media queries in order to complete the exercises.
 
