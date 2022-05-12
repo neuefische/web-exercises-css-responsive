@@ -5,22 +5,18 @@
   padding: 20px;
   background: var(--light);
   color: var(--contrast-text);
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 10px;
 }
 
 @media (min-width: 600px) {
   .main-area {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1000px) {
   .main-area {
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
