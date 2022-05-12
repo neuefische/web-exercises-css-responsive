@@ -11,7 +11,7 @@
   color: var(--contrast-text);
 }
 
-.footer__paragraph__span,
+.footer__paragraph--highlight,
 .footer__link {
   color: var(--accent-1);
 }
