@@ -1,5 +1,7 @@
 # CSS Responsive Exercises
 
+**ATTENTION: this exercise uses CSS positioning!**
+
 This repository provides basic CSS responsive exercises and their solution.
 
 The description of the individual tasks can be found [here](exercises.md).
