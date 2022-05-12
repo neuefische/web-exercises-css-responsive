@@ -11,7 +11,7 @@
   color: var(--contrast-text);
 }
 
-.footer__paragraph__span,
+.footer__paragraph--highlight,
 .footer__link {
   color: var(--accent-1);
 }
@@ -20,7 +20,7 @@
   color: var(--accent-2);
 }
 
-/* If you nade this, without looking here.. verrrrry nice! super hard task :) */
+/* Solution only using CSS! */
 @media (orientation: landscape) {
   .footer__heart {
     position: fixed;
