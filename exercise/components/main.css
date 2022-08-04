@@ -5,7 +5,6 @@
   padding: 20px;
   background: var(--light);
   color: var(--contrast-text);
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 10px;
 }
